@@ -1,0 +1,1 @@
+# aspnet-comic-book-gallery-model
