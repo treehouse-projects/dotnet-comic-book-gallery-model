@@ -6,16 +6,9 @@ using System.Threading.Tasks;
 
 namespace ComicBookGalleryModel.Models
 {
-    public class Artist
+    public class Role
     {
-        public Artist()
-        {
-            ComicBooks = new List<ComicBookArtist>();
-        }
-
         public int Id { get; set; }
         public string Name { get; set; }
-
-        public ICollection<ComicBookArtist> ComicBooks { get; set; }
     }
 }
